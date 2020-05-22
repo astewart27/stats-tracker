@@ -1,0 +1,30 @@
+{
+  "name": "stats-tracker",
+  "version": "1.0.0",
+  "description": "Apex Legends Stats Tracker application using the Tracker.gg API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astewart27/stats-tracker.git"
+  },
+  "author": "Aaron Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astewart27/stats-tracker/issues"
+  },
+  "homepage": "https://github.com/astewart27/stats-tracker#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
